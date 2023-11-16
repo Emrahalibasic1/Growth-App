@@ -182,9 +182,23 @@ img{
 }
 .text-center{
     text-align: center;
-}/*jfvhsdjkfgvsdlufgbsdlibgfilčusdhg*/
+}/*testimionalas*/
 .testimonials{
     padding: 40px 0;
+}
+.testimonials .testimonials-heading{
+    width: 700px;
+    margin-bottom: 40px;
+}
+.testimonials-grid .card p:nth-child(2){
+        margin-top: 30px;
+        font-weight: bold;
+            
+}
+.testimonials-grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 30px;
 }
 .testimonials .testimonials-heading{
     width: 700px;
