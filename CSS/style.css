@@ -84,11 +84,15 @@ img{
 .video{
     padding: 10px 0 40px;
 }
-.video-content{
+.video .video-content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.video .video-preview{
+    margin-bottom: 20px;
+}
+
 /*ovdje ide card*/
 .card{
     background: #fff;
@@ -109,7 +113,7 @@ img{
     color: #fff;
 }
  /*1,8,53*/
-/*end*/
+/*CONTAINER*/
  
 .container{
     max-width: 1100px;
@@ -123,7 +127,7 @@ img{
     margin: 0 auto;
     padding: 0 15px;
 }
-
+/*BUTTONS*/
 .btn{
     display: inline-block;
     padding: 13px 20px;
@@ -134,6 +138,7 @@ img{
     border: none;
     border-radius: 20px 0px 20px 0px;
     cursor: pointer;
+    text-align: center;
     transition: 0.5s;
 }
 
@@ -156,7 +161,7 @@ img{
     display: block;
     width: 100%;
 }
-/**/
+/*text*/
 .text-xxl{
     font-size: 2rem;
     line-height: 1.2;
@@ -202,7 +207,7 @@ img{
         font-weight: bold;
             
 }
-.testimonials-grid{
+.testimonials .testimonials-grid{ 
     display: grid;
     grid-template-columns:repeat(3,1fr);
     gap: 30px;
@@ -211,10 +216,33 @@ img{
     width: 700px;
     margin-bottom: 40px;
 }
- .pricing-grid{
+/*Pricing*/
+.pricing .pricing-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 30px;
     margin-top: 50px;
+ }
+ .pricing .pricing-card-subheading{
+        margin-bottom: 30px;
+ }
+ .pricing .pricing-card-price{
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+ }
+ .pricing ul{
+    margin: 30px 0;
+ }
+ .pricing ul li{
+    margin-bottom: 20px;
+ }
+ .pricing ul li i{
+        margin-right: 10px;
+ }
+ .pricing .pricing-footer{
+    margin: 30px 0;
+
  }
 .bg-black{
     background: #000;
