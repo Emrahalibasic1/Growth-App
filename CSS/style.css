@@ -439,5 +439,7 @@ img{
         }
   }
   @media (max-width: 500px){
-
+        .text-xxl{
+            font-size: 2rem;
+        }
   }
