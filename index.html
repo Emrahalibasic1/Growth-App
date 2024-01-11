@@ -83,13 +83,31 @@
                         Get started
                     </a>
                                             
-                   
-                        <div class="modal-section btn" id="demoButton">
-                            <button onclick="openModal()">Get started</button>
+
+                    <div class="modal-section btn btn-primary" id="demoButton1">
+                      
+                        <button onclick="openModal(1)"> Book a demo! <i class="fas fa-laptop"></i></button>
+                    </div>
+                    
+                    
+                    
+                    <div class="popup-modal" id="myModal">
+                        <button id="closeModal" onclick="closeModal()">X</button>
+                    
+                        <h4 id="modalTitle"></h4>
+                        <br>
+                        <div id="modalContent"></div>
+                    </div>
+                    
+                    <div class="overlay" id="overlay"></div>
+
+                    <!--------------
+                        <div class="modal-section btn" id="demoButton1">
+                            <button onclick="openModal(1)">Get started</button>
                         </div>
             
                     
-                        <div class="popup-modal">
+                        <div class="popup-modal" id="">
                             <button id="closeModal" onclick="closeModal()">X</button>
                     
                             <h4>Accelerate Your Startup Journey: Unleash Growth with Our Powerful Platform!</h4>
@@ -114,7 +132,7 @@
                             
                         </div>
                         <div class="overlay"></div>
-                 
+                 ----->
                     
                 </div>
                   
@@ -229,23 +247,9 @@
                                 </li>
                                 </ul>
                              
-                                <div class="modal-section btn btn-primary btn-block">
-                                    <button onclick="openModal()">Get started</button>
+                                <div class="modal-section btn btn-primary btn-block" id="demoButton2">
+                                    <button onclick="openModal(2)">Get started </button>
                                 </div>
-                    
-                            
-                                <div class="popup-modal">
-                                    <button id="closeModal" onclick="closeModal()">X</button>
-                            
-                                    <h4>Modal Title</h4>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </div>
-                                <div class="overlay"></div>
                               
                             </div>
                           
@@ -279,6 +283,7 @@
                                   
                                 </ul>
                                 
+ 
 
                                 <div class="modal-section btn btn-primary btn-block">
                                     <button onclick="openModal()">Get started</button>
@@ -297,7 +302,6 @@
                                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </div>
                                 <div class="overlay"></div>
-
 
                             </div>
                         </div>
@@ -455,7 +459,17 @@
                </div>
             </div>
         </div>
+
+    
     </footer>
+
+
+
+ 
+
+
+
+
     <script src="JAVASCRIPT/main.js"></script>
 </body>
 </html>
