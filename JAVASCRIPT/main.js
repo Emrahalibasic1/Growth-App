@@ -89,8 +89,38 @@ document.addEventListener('DOMContentLoaded', () => {
           
             break;
         case 2:
-            document.getElementById('modalTitle').innerText = "Modal Title 2";
-            document.getElementById('modalContent').innerText = "Sadržaj za drugi button.";
+          document.getElementById('modalTitle').innerText = "Accelerate Your Startup Journey: Unleash Growth with Our Powerful Platform!";
+          document.getElementById('modalContent').innerText = "  ";
+          document.getElementById('modalContent').innerHTML = 
+          "<ol>"+
+          "<p>Transform your startup into a market powerhouse with our comprehensive growth tool! Open the doors to unlimited possibilities and boost productivity with our innovative platform that simplifies organization, fosters collaboration, and enables progress tracking in one central location.</p>"+
+          "<br>"+
+          " <li>Effortless Organization: Manage projects, tasks, and resources seamlessly, adapting to the needs of your growing startup.</li>"+
+          "<br>"+
+          "<li>Perfect Collaboration: Foster team synergy through easy sharing of ideas, documentation, and communication in an intuitive way.</li>"+
+          "<br>"+
+          "<li>Progress Tracking: Gain insight into key performance indicators (KPIs) and analyses to make informed decisions that drive your startup's growth.</li>"+
+          "<br>"+
+          "<li>Personalized Support: Our team of experts is always ready to help you harness the full potential of our growth tool.</li>"
+          "</ol>";
+        
+          break;
+          case 3:
+            document.getElementById('modalTitle').innerText = "Accelerate Your Startup Journey: Unleash Growth with Our Powerful Platform!";
+            document.getElementById('modalContent').innerText = "  ";
+            document.getElementById('modalContent').innerHTML = 
+            "<ol>"+
+            "<p>Transform your startup into a market powerhouse with our comprehensive growth tool! Open the doors to unlimited possibilities and boost productivity with our innovative platform that simplifies organization, fosters collaboration, and enables progress tracking in one central location.</p>"+
+            "<br>"+
+            " <li>Effortless Organization: Manage projects, tasks, and resources seamlessly, adapting to the needs of your growing startup.</li>"+
+            "<br>"+
+            "<li>Perfect Collaboration: Foster team synergy through easy sharing of ideas, documentation, and communication in an intuitive way.</li>"+
+            "<br>"+
+            "<li>Progress Tracking: Gain insight into key performance indicators (KPIs) and analyses to make informed decisions that drive your startup's growth.</li>"+
+            "<br>"+
+            "<li>Personalized Support: Our team of experts is always ready to help you harness the full potential of our growth tool.</li>"
+            "</ol>";
+          
             break;
         // Dodajte case-ove za dodatne buttone ako je potrebno
     }
